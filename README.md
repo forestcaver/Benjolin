@@ -26,7 +26,7 @@ Files: Eagle pcb board, Eagle pcb schematic, Gerber files for the pcb, Eagle pan
 
 I used a combination of Kweiwen's schematic on his github as well as the electro-music schematics. I then added the power supply and protection.
 
-The main issue (which is an original feature) for me is that the output volume is quite low. This is true of the original design. You can adjust one of the resistors just before the filter to boost the gain. But this can cause subtle distortion in the filter. If I ever revise the board I’ll add an output gain cell. It doesnt bother me much on this version - but just be aware of it....
+The main issue (which is an original feature) for me is that the output volume is quite low. This is true of the original design. You can adjust one of the resistors just before the filter to boost the gain. But this can cause subtle distortion in the filter. A better way is to add a gain cell at the output (see v1.6)
 
 - - - -
 
@@ -34,5 +34,3 @@ The main issue (which is an original feature) for me is that the output volume i
 
 This version adds an opamp to add gain to the output to approx 10v p-p. It also normalises T1 to osc 2 cv input
 (can still be attenuated with the pot), normalises T2 to osc 1 cv and T2 to filter cv input.
-
-Please note: I have not built this version. I built a version that had a trivially small error, so I updated the design before uploading here. I am confident it will be fine but I have not 100% verified it!
